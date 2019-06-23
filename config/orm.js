@@ -52,6 +52,7 @@ var orm = {
             cb(result);
         });
     },
+    // A generic create...for any number of values
     create: function(table, cols, vals, cb) {
         var queryString = "INSERT INTO " + table;
 
@@ -72,7 +73,8 @@ var orm = {
             cb(result);
         });
     },
-    // An example of objColVals would be {name: panther, sleepy: true}
+    // An example of objColVals would be {name: bob, devoured: true}
+    // A nice generic update
     update: function(table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
 

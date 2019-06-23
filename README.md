@@ -1,5 +1,20 @@
 # burger
 
+Well, it works.  I kept some extra functionality to allow for a
+user to move items (burgers) back and forth between the lists.  It's extra, but I like that capability.
+
+My attempt to add a background image failed miserably.  I think it is because I have the pathing incorrect, but f12 isn't telling me anything.  The current styling was a big enough headache...ugly though it may be.
+
+Basically, this functionality is a demonstration of MVC architecture in a very basic form.  Items can be created, read, moved from column to column (update), and deleted.
+
+Handlebars are an annoying side-show in all of this.  I do not find their shorthand notation helpful, but that will change as I become more familiar with it.
+
+
+
+
+******************************************************************
+Directions
+******************************************************************
 Node Express Handlebars
 
 

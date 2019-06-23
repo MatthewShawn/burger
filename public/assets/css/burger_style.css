@@ -1,19 +1,31 @@
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
 }
 
 .label {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
 }
 
 .form-group {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.left-burger {
+    float: left;
+    width: 35%;
+    margin-left: 15%
+}
+
+.right-burger {
+    float: right;
+    width: 35%;
+    margin-right: 15%
 }

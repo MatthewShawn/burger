@@ -1,7 +1,8 @@
 <h1>Burgers!</h1>
 
-<div>
-<h2>Burgers have been eaten!</h2>
+
+<div class="left-burger">
+<h2>Burgers that have been eaten!</h2>
 
 <ul>
   {{#each burgers}}
@@ -12,8 +13,8 @@
 </ul>
 </div>
 
-<div>
-<h2>Burgers that need to be devoured!</h2>
+<div class="right-burger">
+<h2>Burgers that have been created, but not eaten...yet.</h2>
 
 <ul>
   {{#each burgers}}
@@ -23,6 +24,7 @@
   {{/each}}
 </ul>
 </div>
+
 
 <h2>Add a Burger</h2>
 <form class="create-form">
@@ -34,9 +36,10 @@
 
   <div class="form-group">
     <label for="devoured">Devour?</label><br>
-    <input type="radio" name="devoured" value="1" checked> I'm on the wrong list!<br>
-    <input type="radio" name="devoured" value="0"> Eat Me.
+    <input type="radio" name="devoured" value="1" checked> Not Eaten.<br>
+    <input type="radio" name="devoured" value="0"> Already Eaten.
   </div>
 
   <button type="submit">Add Burger</button>
 </form>
+
