@@ -9,6 +9,9 @@ Basically, this functionality is a demonstration of MVC architecture in a very b
 
 Handlebars are an annoying side-show in all of this.  I do not find their shorthand notation helpful, but that will change as I become more familiar with it.
 
+Deployed link:
+https://nameless-depths-84456.herokuapp.com/
+
 
 
 
